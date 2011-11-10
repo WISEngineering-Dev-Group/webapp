@@ -8,7 +8,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
 <link href="<spring:theme code="globalstyles"/>" media="screen" rel="stylesheet"  type="text/css" />
-<!--birch--><link href="<spring:theme code="homepagestylesheet"/>" rel="stylesheet" type="text/css" />
   
 <title><spring:message code="checkcompatibility.title" /></title>
 
@@ -41,7 +40,7 @@ padding:2px;
 
 hr 
 {
-border:thin solid #006837;
+border:thin solid;
 }
 
 h3
@@ -61,33 +60,12 @@ margin-bottom:10px;
 
 <%@ include file="headermain_nousername.jsp"%>
 
-<div id="centeredDiv">
-
-<!--birch--><div id="contentTop" style="text-align:left; padding: 20px;">
-
-<!--<a href="#compatibility">Browser Compatibility Check</a><br/>
+<a href="#compatibility">Browser Compatibility Check</a><br/>
 <a href="#firewall">Network Compatibility Check (Firewall/Proxy)</a><br/>
 <a href="#browser">Browser Recommendation</a><br/>
-<a href="#system">Computer System Requirements to run WISE4 projects</a><br/><br/>-->
-
-<!--birchstart--><div id="sidebar">
-			<div id="sidebarSub1"><!--  SignIn Sub Box 1-->
-				<div class="header">QUICK LINKS</div>
-                <p class="sidebar">
-                <a href="#compatibility">Browser Compatibility Check</a><br/><br />
-				<a href="#firewall">Network Compatibility Check (Firewall/Proxy)</a><br/><br />
-				<a href="#browser">Browser Recommendation</a><br/><br />
-				<a href="#system">Computer System Requirements to run WISE4 projects</a><br/><br/>
-          	  </p>
-			</div>
-</div>
-
-<div id="boxCheck">
-
-<div id="boxPreviewProject">
-<!--birchend-->
-	
-<h3><a name="compatibility"></a>Browser Compatibility Check</h3>
+<a href="#system">Computer System Requirements to run WISE4 projects</a><br/><br/>
+	<div>
+		<h3><a name="compatibility"></a>Browser Compatibility Check</h3>
 		<table>
 			<tr>
 				<td>Resource</td>
@@ -152,9 +130,8 @@ margin-bottom:10px;
 		<div id='compatibilityCheckResult'></div>
 		<div id='compatibilityCheckMessages'></div>
 		<br/>
-<!--birch--><br />
-	<!--	<hr/>-->			
-<h3 id='contentFilter'><a name="firewall"></a>Network Compatibility Check (Firewall/Proxy)</h3>
+		<hr/>			
+		<h3 id='contentFilter'><a name="firewall"></a>Network Compatibility Check (Firewall/Proxy)</h3>
 		<div>You should not be behind firewall/proxy if possible when running WISE projects.  Parts or all of the WISE may not load 
 		     depending on your school's firewall settings. This section checks if you are
 			 restricted from accessing certain resources on the WISE server. 
@@ -165,9 +142,8 @@ margin-bottom:10px;
 		</div>
 		
 	<br/>
-    <!--birch--><br />
-<!--	<hr/>	-->
-<h3><a name="browser"></a>Browser Recommendation</h3>
+	<hr/>	
+	<h3><a name="browser"></a>Browser Recommendation</h3>
 	<div>Use this section to choose which browser to use to run WISE</div>
 	<table>
 			<tr>
@@ -200,10 +176,10 @@ margin-bottom:10px;
 			</tr>
 	</table>
 
-<!--birch--><br /><br />
-	<!--<hr/>-->
+
+	<hr/>
 		
-<h3><a name="system"></a>Computer System Requirements to run WISE4 projects</h3>
+	<h3><a name="system"></a>Computer System Requirements to run WISE4 projects</h3>
  
 <h4>Fully supported configuration</h4> 
  
@@ -291,15 +267,10 @@ margin-bottom:10px;
  
 <p>Any configuration that doesn't meet the criteria above.</p> 	
 
-
+</div>   <!-- end of centered div-->
 <br/>
 <hr/>
 <a href="pages/schoolIT.html">Resource for school technicians</a>
-
-<!--birch--></div></div></div>
-
-</div>   <!-- end of centered div-->
-
 </body>
 </html>
 

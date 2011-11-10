@@ -24,7 +24,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-
 <link href="../../<spring:theme code="globalstyles"/>" media="screen" rel="stylesheet"  type="text/css" />
 <link href="../../<spring:theme code="teacherforgotstylesheet"/>" media="screen" rel="stylesheet" type="text/css" />
 <link href="../../<spring:theme code="stylesheet"/>" media="screen" rel="stylesheet"  type="text/css" />
@@ -39,21 +38,14 @@
 
 <%@ include file="../student/headermain.jsp"%>
 
-<!--<div style="text-align:center;">   
---><!--This bad boy ensures centering of block level elements in IE (avoiding margin:auto bug).  Oh how I hate IE-->
-
-
-
-
-
+<div style="text-align:center;">   
+<!--This bad boy ensures centering of block level elements in IE (avoiding margin:auto bug).  Oh how I hate IE-->
 
 <h1 id="lostTitleBar" class="blueText"><spring:message code="forgot.teacher.error.2"/></h1>
     	
-<!--<br />--> 
+<br /> 
 
-<!--birch--><!--<div style="margin-left:20px;">-->
-
-<!--<h2 class="center"><spring:message code="forgot.teacher.error.3"/></h2>-->
+<h2 class="center"><spring:message code="forgot.teacher.error.3"/></h2>
 
 <!-- Support for Spring errors object -->
 <div id="errorMessageFormat">
@@ -70,28 +62,25 @@
  <h2><b><spring:message code="forgot.teacher.index.1"/></b></h2>
  <h5><spring:message code="forgot.teacher.index.2"/><br/><spring:message code="forgot.teacher.index.3"/></h5>
  		<b><label for="send_username" /><spring:message code="login.username" /> </b>
-		<input type="text" id="username" name="username" size="30" tabindex="1" /> <br /><br /><!--<br />-->
+		<input type="text" id="username" name="username" size="30" tabindex="1" /> <br /><br /><br />
 		<input type="submit" name="sendpassword" id="sendpassword" value="<spring:message code="forgot.teacher.index.4"/>"  />
  </div>
-<!--birch--><div id="boxSecondary">
-<!--birch(changed to H2)--><h2><spring:message code="forgot.teacher.index.5"/></h2>
 
-<!--<div id="boxSecondary">-->
+<h3><spring:message code="forgot.teacher.index.5"/></h3>
+
+<div id="boxSecondary">
 	<h2><b><spring:message code="forgot.teacher.index.6"/></b></h2>
 	<h5><spring:message code="forgot.teacher.index.7"/> <br/> <spring:message code="forgot.teacher.index.8"/></h5>
 	<b><label for="send_usernamepassword" /><spring:message code="lostpassword.teacher.email" /></b>
-	<input type="text" name="emailAddress" id="emailAddress" size="40" tabindex="2" /><br /><br /><!--<br />-->
+	<input type="text" name="emailAddress" id="emailAddress" size="40" tabindex="2" /><br /><br /><br />
 	<input type="submit" name="sendemailAndPwd" id="sendEmailAndPwd" value="<spring:message code="forgot.teacher.index.9"/>" />
-<!--</div>-->
-<!--birch--><br /><br />
-<!--birch(changed to H2)--><h2><spring:message code="forgot.teacher.index.10"/><a href="../../contactwisegeneral.html"><spring:message code="forgot.teacher.index.11"/></a></h2>
-<!--birch--></div>
+</div>
+
+<h3><spring:message code="forgot.teacher.index.10"/><a href="../../contactwisegeneral.html"><spring:message code="forgot.teacher.index.11"/></a></h3>
+
  </form>
 
 </div>
-
-
-
 </div>
 
 </body>
