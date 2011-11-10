@@ -36,6 +36,7 @@ time, mark, audio, video {
   border:0;
   outline:0;
   font-size:100%;
+  font-weight:normal;
   font-style:normal;
   vertical-align:baseline;
   background:transparent;
@@ -50,31 +51,20 @@ body {
 	font-family: "Lucida Grande", "Lucida San Unicode", "Gill Sans", Helvetica, Arial;	
 	font-size: 100%;
 	text-align: center;
-	margin: 0;
-	background-image:url('../images/surrounding_bg.jpg');
-	background-repeat:repeat;
+	margin: 5px;
+	background-color:#FFFFFF;
 	overflow-y:scroll;  	/* This style allocates permanent area for a vertical scroll bar.  This keeps the top navigation buttons from moving around.  */
 	overflow-x:auto;  
 	}
-
+	
 img {border: 0px;}
 
-h1 {font-size:1.2em;} 
-h2 {font-size:1em; }
-h3 {/*font-size:1.4em;*/
-	background-color:#006837;  
-	font-family:Arial,Helvetica,sans-serif;
-	font-size:1em;
-	font-weight:bold;
-	color:#FFFFFF;
-	/*margin: 20px;*/
-	padding:10px 10px 3px 10px;
-	text-align:left;
-	}
-	
-h4 {font-size:.9em;}
-h5 {font-size:.8em; }
-h6 {font-size:.7em; }
+h1 {font-size:2.0em;} 
+h2 {font-size:1.5em; }
+h3 {font-size:1.4em;}
+h4 {font-size:1.2em;}
+h5 {font-size:.9em; }
+h6 {font-size:.8em; }
 p  {font-size:.8em; line-height:150%;padding:0px; margin:0px;}
 	
 abbr, acronym {
@@ -82,45 +72,9 @@ abbr, acronym {
 	border-bottom: 1px dotted #666666;	
 	}
 
-#pageheader {
-	background-image:url(../images/header.jpg);
-	background-repeat:no-repeat;
-	width: 1025px;
-	height:160px;
-	text-align:right;
-	padding: 0px;
-	margin: 0 auto;
-	color:#FFFFFF;
-	}
-	
-#pageheader a:link {color:#FFFFFF;}      /* unvisited link */
-#pageheader a:visited {color:#FFFFFF;}  /* visited link */
-#pageheader a:hover {color:#FFFFFF;}  /* mouse over link */
-#pageheader a:active {color:#FFFFFF;}  /* selected link */
-
-#pageheader p {padding:10px 5px;}
-
-#pagefooter {
-	background-image:url(../images/footer.jpg);
-	background-repeat:no-repeat;
-	width: 1025px;
-	height:92px;
-	text-align:right;
-	padding: 0px;
-	margin: 0 auto 0;
-	color:#FFFFFF;
-	}
-	
-#pagefooter a:link {color:#FFFFFF;}      /* unvisited link */
-#pagefooter a:visited {color:#FFFFFF;}  /* visited link */
-#pagefooter a:hover {color:#FFFFFF;}  /* mouse over link */
-#pagefooter a:active {color:#FFFFFF;}  /* selected link */
-
-#pagefooter p {padding:25px 5px;}
-
 #bannerArea1 {
 	position:relative;
-	background-image:url(../images/header.jpg);
+	background-image:url(../images/WISE-Secondary-Banner-Gradient.png);
 	background-position: center top;
 	width: 100%;
 	height: 60px;
@@ -131,11 +85,11 @@ abbr, acronym {
 	
 #bannerArea2 {
 	position:relative;
-	/*background-image:url(http://wise4.berkeley.edu/webapp/themes/tels/default/images/images/WISE-Secondary-Banner-Gradient65.png);
-	background-position: center top;*/
+	background-image:url(../images/WISE-Secondary-Banner-Gradient65.png);
+	background-position: center top;
 	width: 100%;
 	height: 65px;
-	/*margin: 5px 0 10px 0;*/
+	margin: 5px 0 10px 0;
 	padding:0px;
 	position:relative;
 	}
@@ -165,14 +119,11 @@ abbr, acronym {
 
 #centeredDiv {
 		background-color:#FFFFFF;
-		width: 1025px;
+		width: 958px;
 		text-align:left;
 		padding: 0;
-		margin: 0 auto 0;
-	    background: url('../images/footer.jpg') no-repeat bottom center white;
- 	  	padding-bottom: 150px;
-		min-height: 700px;
-}
+		margin: 0 auto;
+		}
 
 #centeredDivDynamicFrame {
 		background-color:#FFFFFF;
@@ -344,7 +295,7 @@ form {margin:0px; padding:0px;}
 #projectOverviewTable #row4 {
 	background-color:#FFDBAC;
 	background-color:#FFF;
-	background-image:url(http://wise4.berkeley.edu/webapp/themes/tels/default/images/images/Gradient_tan320.png);
+	background-image:url(../images/Gradient_tan320.png);
 	background-position: bottom;
 	
 			}	
@@ -397,71 +348,27 @@ form {margin:0px; padding:0px;}
 	background:white;
 }
 
-#previewProjectTable{
-	border: 0px;
-	line-height:150%;
-	
-}
-	
-#previewProjectTable tr {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-#previewProjectTable th {
-	font-size: medium;
-}
-
-#projectcontentTop, #contentBottom, #contentFooter {
-	display:block;
-	border: 0 none;
-    padding: 0;
-    width: 100%;
-}
-	
-#projectcontentTop {
-    height: 580px;
-	position:relative;
+.generalButton {
+ 	color:#000;
+ 	font-size:1.2em;
+	font-weight:bold;
+	border-top:1px solid #666666;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	border-left:1px solid #666666;
+	padding:4px 15px;
+	margin:0 10px;
+	background-image: url(../images/WISE-Secondary-Banner-Gradient.png);
+	background-position: top;
+	text-decoration:none;
+  	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	cursor:pointer;
 }
 
-#accountcontentTop, #contentBottom, #contentFooter {
-	display:block;
-	border: 0 none;
-    padding: 0;
-    width: 100%;
+.generalButton:hover {
+ 	background-image:none;
+ 	background-color:#FFFF00;
+ 	cursor:pointer;
 }
-	
-#accountcontentTop {
-    height: 400px;
-	position:relative;
-}
-
-#startol {
-	list-style:decimal outside;
-	font-size:.8em; 
-	line-height:150%;
-	padding:0 0 0 35px;
-	margin:0px;
-}
-
-#startul {
-	list-style:square outside;
-	font-size:.8em; 
-	line-height:150%;
-	padding:0 0 0 30px;
-	margin:0px;
-}
-
-#startcontentTop {
-    height: 1050px;
-	position:relative;
-}
-
-#boxSecondary {
-	margin: 0 0 30px 20px;
-	text-align:left;
-}	
-
-.confluenceTable {
-	width: 634px;
-	}
