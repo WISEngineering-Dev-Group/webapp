@@ -2,7 +2,7 @@
 
 <!-- $Id: header.jsp 368 2007-05-05 01:41:18Z mattfish $ -->
 
-<!--<div id="bannerArea1">
+<div id="bannerArea1">
 
 	<div id="betaTag"><img src="themes/tels/default/images/WISE-Logo-betatag.png" alt="WISE4 Beta graphic" border="0" /></div>
 
@@ -29,6 +29,4 @@
 	 	</sec:authorize>
      </sec:authorize>
   </div>
-</div>-->
-
-<div id="pageheader"><div style="float:left;"><a href="./index.html"><img src="http://174.121.240.137:8080/webapp/themes/tels/default/images/home.png"/></a></div><p><a href="./contactwisegeneral.html">Need Help?</a>   |   <a href="signup.html">Create Account</a>   |   <a href="/webapp/j_spring_security_logout">Log Out</a>&nbsp;&nbsp;&nbsp;</p></div>
+</div>
