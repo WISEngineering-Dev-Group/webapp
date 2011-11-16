@@ -17,7 +17,7 @@
   * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 -->
 
-<!-- $Id$ -->
+<!-- $Id: projectpickerclassmonitor.jsp 2647 2010-01-08 22:46:32Z supersciencefish $ -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd" >
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>

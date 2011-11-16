@@ -17,7 +17,7 @@
   * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 -->
 
-<!-- $Id$ -->
+<!-- $Id: header.jsp 591 2007-07-04 19:05:50Z laurel $ -->
 
 <div id="banner">
 <img width="158" height="85"

@@ -26,12 +26,10 @@
 <!-- $Id: header.jsp 2602 2009-12-09 20:01:31Z honchikun@gmail.com $ -->
 
 
-<!--<div id="bannerArea1">
+<div id="bannerArea1">
     	<div><a href="../index.html" 
     		onmouseout="MM_swapImgRestore()" 
     		onmouseover="MM_swapImage('WISE Main Logo','','../themes/tels/default/images/WISE-Logo-Large-v4.png',1)">
     		<img src="../themes/tels/default/images/WISE-Logo-Large-v4.png" 
     		 alt="WISE Large Logo" border="0" id="WISE Main Logo" /></a></div>
-</div>-->
-
-<div id="pageheader"><div style="float:left;"><a href="./index.html"><img src="http://174.121.240.137:8080/webapp/themes/tels/default/images/home.png"/></a></div><p><a href="./contactwisegeneral.html">Need Help?</a>   |   <a href="signup.html">Create Account</a>   |   <a href="/webapp/j_spring_security_logout">Log Out</a>&nbsp;&nbsp;&nbsp;</p></div>
+</div>

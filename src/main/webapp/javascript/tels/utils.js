@@ -23,7 +23,7 @@
 
 /**
  * @author Hiroki Terashima
- * @version $Id$
+ * @version $Id: utils.js 1543 2007-12-14 17:55:07Z hiroki $
  */
 
 function addEvent(obj, eventType, fn){ 

@@ -18,6 +18,13 @@
   
 /* THESE STYLES ARE USED GLOBALLY IN THE SITE  */	
 
+/* eddie mod */
+#studentopenjournal {
+	display: none;
+}
+
+/* BIRCH MOD */
+
 /* CSS Reset */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -133,8 +140,9 @@ abbr, acronym {
 	position:relative;
 	/*background-image:url(http://wise4.berkeley.edu/webapp/themes/tels/default/images/images/WISE-Secondary-Banner-Gradient65.png);
 	background-position: center top;*/
+	background-image:url(../images/header.jpg);
 	width: 100%;
-	height: 65px;
+	height: 61px;
 	/*margin: 5px 0 10px 0;*/
 	padding:0px;
 	position:relative;

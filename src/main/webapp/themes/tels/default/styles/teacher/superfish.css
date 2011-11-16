@@ -1,9 +1,8 @@
 /*** ESSENTIAL STYLES ***/
 
 #menuContainer {
-	position:absolute;
-	top: 95px;
-	right:5px;
+	margin-top: 100px;
+	float:right;
 }
 
 .sf-menu, .sf-menu * {
@@ -75,23 +74,22 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu li {
 	/* background:		#BDD2FF;   */
 	/*	background:		#FFCC99;  */
-	/*	background: url('../../images/teacher/teacherNavButton.png') repeat-x top;*/
-		background: #8CC63E;
+		background: url('../../images/teacher/teacherNavButton.png') repeat-x top;
 }
 
 .sf-menu li li {
-	background:		#8CC63E;
-	background:		#8CC63E ;
+	background:		#AABDE6;
+	background:		#FFCC99 ;
 }
 	
 .sf-menu li li li {
-	background:		#8CC63E;
+	background:		#9AAEDB;
 }
 
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	background:		#8CC63E;
-	background:		#006837;
+	background:		#CFDEFF;
+	background:		#FFFF00;
 	outline:		0;
 }
 

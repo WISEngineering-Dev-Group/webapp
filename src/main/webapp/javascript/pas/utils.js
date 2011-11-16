@@ -18,7 +18,7 @@
 
 /**
  * @author Cynick Young
- * @version $Id$
+ * @version $Id: utils.js 266 2007-04-04 15:40:42Z cynick $
  */
 
 function addEvent(obj, eventType, fn){ 

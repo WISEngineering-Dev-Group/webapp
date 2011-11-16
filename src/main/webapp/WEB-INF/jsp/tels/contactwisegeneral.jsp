@@ -7,7 +7,6 @@
 
 <title>Contact WISE General Issues</title>
 
-
 <link href="<spring:theme code="globalstyles"/>" media="screen" rel="stylesheet"  type="text/css" />
 <link href="<spring:theme code="homepagestylesheet"/>" media="screen" rel="stylesheet" type="text/css" />
 <link href="<spring:theme code="stylesheet"/>" media="screen" rel="stylesheet" type="text/css" />
@@ -101,7 +100,6 @@
 	<ul>
 		<li><spring:message code="contactwisegeneral.3"/><em><spring:message code="contactwisegeneral.4"/></em>&nbsp;<spring:message code="contactwisegeneral.5"/></li>
 		<li><spring:message code="contactwisegeneral.6"/></li>
-<!--birch --><li><spring:message code="contactwisegeneral.12"/></li>
 	</ul>
 </div>
 
@@ -162,7 +160,7 @@
     <form:hidden path="usersystem" id="usersystem" />
   </dl>  
     
- <!--    <div id="asterixWarning"><spring:message code="contactwisegeneral.12"/></div>  -->
+     <div id="asterixWarning"><spring:message code="contactwisegeneral.12"/></div>  
         
     <div id="hotInputFields"><input type="submit" onclick="detectUserSystem()" id="sendMessageButton" value="<spring:message code="contactwisegeneral.13"/>"></input></div>
                   

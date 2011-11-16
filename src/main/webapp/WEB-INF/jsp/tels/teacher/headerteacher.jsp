@@ -19,10 +19,8 @@
 
 <!-- $Id: header.jsp 368 2007-05-05 01:41:18Z archana $ -->
 
-<div id="pageheader">
 <div id="bannerArea2">
 
-<!--
 	<div id="betaTag"><img src="/webapp/themes/tels/default/images/WISE-Logo-betatag.png" alt="Beta graphic" border="0" /></div>
 
     <div id="wiseLogo"><a href="/webapp/index.html" 
@@ -37,7 +35,7 @@
     	<img src="/webapp/themes/tels/default/images/Teacher-Dashboard-Label.png" alt="Teacher Dashboard Label" width="169" height="11" border="0" id="Teacher Dashboard Label" /></a>
    </div>
 
-    <div id="teacherInterfaceHeader">teacher dashboard</div>-->
+    <div id="teacherInterfaceHeader">teacher dashboard</div>
 	
 <div id="menuContainer">
 
@@ -108,5 +106,5 @@
  
 </div> <!-- End of bannerArea   Note that NavigationMainProjects and usernameSignoutBox are position ABSOLUTE to bannerArea (which is set Relative) -->
 
-</div>    
+    
 

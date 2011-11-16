@@ -17,7 +17,7 @@
   * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 -->
 
-<!-- $Id$ -->
+<!-- $Id: logout.jsp 2384 2009-05-19 20:50:37Z honchikun@gmail.com $ -->
 
     <form action="<c:url value="/j_spring_security_logout"/>" method="POST">
       <input type="submit" value="<spring:message code="log.out" />"/>

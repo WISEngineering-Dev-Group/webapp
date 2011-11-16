@@ -17,7 +17,7 @@
   * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 -->
 
-<!-- $Id$ -->
+<!-- $Id: footer.jsp 259 2007-03-30 16:28:12Z cynick $ -->
 
 <div id="footer">
 	<spring:message code="copyright" />

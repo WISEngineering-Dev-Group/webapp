@@ -577,15 +577,7 @@
 
 /* CONTACT WISE PAGES */
 #pageTitle {
-	background-color:#006837;  
-	font-family:Arial,Helvetica,sans-serif;
-	font-size:1em;
-	font-weight:bold;
-	color:#FFFFFF;
-	margin: 20px;
-	padding:10px 10px 3px 10px;
-	text-align:left;
-/*	clear: both;
+	clear: both;
 	text-align: center;
 	width: 810px;
 	margin: 15px auto;
@@ -595,13 +587,13 @@
 	padding: 10px 0;
 	color: #0000FF;
 	font-size: 1.7em;
-	font-weight: bold;*/
+	font-weight: bold;
 }
 
 #pageSubtitle {
-/*	width: 810px;*/
-	text-align: left;
-	margin: 15px 0 0 20px;
+	width: 810px;
+	text-align: center;
+	margin: 15px auto;
 	padding: 0px;
 	font-size: 1.1em;
 	font-weight: bold;
@@ -620,8 +612,8 @@
 
 #pageSubtitleLevel2 {
 	text-align: left;
-	/*margin-left: 65px;
-	width: 760px;*/
+	margin-left: 65px;
+	width: 760px;
 	margin: 0 auto;
 	padding: 0px 0 15px 0;
 	font-size: .85em;
@@ -629,12 +621,10 @@
 
 #pageSubtitleLevel2 li {
 	list-style: circle;
-	list-style-position:inside;
 	padding-top: 2px;
-	margin-left: 20px;
 }
 
-/*#contactWiseForm {
+#contactWiseForm {
 	position: relative;
 	width: 810px;
 	font-size: .9em;
@@ -642,7 +632,7 @@
 	background-color: #CCFFCC;
 	margin: 0px auto 30px auto;
 	padding: 10px 0;
-}*/
+}
 
 #contactWiseForm dl {
 	margin: 0;
@@ -696,48 +686,40 @@
 
 /* LOST USERNAME & PASSWORD PAGES  */
 #lostTitleBar {
-	background-color:#006837;  
-	font-family:Arial,Helvetica,sans-serif;
-	font-size:1em;
-	font-weight:bold;
-	color:#FFFFFF;
-	margin: 20px;
-	padding:10px 10px 3px 10px;
-	text-align:left;
-	/*clear: both;
+	clear: both;
 	width: 85%;
 	text-align: center;
 	border: 1px solid #333333;
 	background-image: url(../images/GradientFooter.png);
 	background-position: bottom;
 	margin: 30px auto 0 auto;
-	padding: 10px 0;*/
+	padding: 10px 0;
 }
 
 #lostSubHeader {
 	padding: 30px 0 20px 0;
 	letter-spacing: 1px;
-/*	font-size: 1.5em;*/
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
 #forgotparagraph {
-	/*text-align: center;
-	width: 70%;*/
+	text-align: center;
+	width: 70%;
 	font-size: .9em;
 	padding: 35px 0 50px 0;
 	line-height: 170%;
-/*	margin: 0px auto;*/
+	margin: 0px auto;
 }
 
-/*#boxSecondary {
+#boxSecondary {
 	background-color: #e0f8df;
 	color: #003300;
 	border: 1px solid #006600;
 	width: 85%;
 	margin: 15px auto 10px auto;
 	padding: 10px 0 10px 0;
-}*/
+}
 
 #returnHomePageButton {
 	padding: 50px;
